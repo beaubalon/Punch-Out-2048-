@@ -1001,4 +1001,13 @@ hr {
 .board-scale { transform: none !important; }
 .container { text-align: initial !important; }
 
+/* Center the whole layout again */
+.container { max-width: 640px; margin: 40px auto 0; }
+
+/* Keep the header pieces aligned while container is centered */
+.heading { display: flex; justify-content: space-between; align-items: center; }
+
+/* Make sure the NEW GAME area doesn’t disappear */
+.above-game { margin-top: 10px; text-align: right; }
+
 
