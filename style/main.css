@@ -974,5 +974,28 @@ hr {
   margin: 0 auto; 
 }
 
+/* Scale the whole board (safer than resizing every tile) */
+.board-scale {
+  transform: scale(1.25);        /* tweak: 1.1, 1.25, 1.4, etc. */
+  transform-origin: top center;
+  display: inline-block;         /* keeps the scaled box tight */
+}
+
+/* Center the scaled board within the page flow */
+.container {
+  text-align: center;            /* centers .board-scale */
+}
+.container .heading,
+.container .above-game,
+.container .game-explanation {
+  text-align: initial;           /* don’t center everything else */
+}
+
+/* Keep mobile sane */
+@media (max-width: 700px) {
+  .board-scale {
+    transform: scale(1.0);
+  }
+}
 
 
