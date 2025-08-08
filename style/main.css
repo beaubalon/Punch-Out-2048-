@@ -800,3 +800,43 @@ hr {
   border: 3px solid white;       /* <- This adds the frame */
   box-sizing: border-box;        /* <- Keeps size from expanding beyond tile */
 }
+.roster {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.roster h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.roster-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fighter {
+  width: 100px;
+}
+
+.fighter img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  image-rendering: pixelated;
+}
+
+.fighter p {
+  margin: 5px 0 0;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.fighter span {
+  font-size: 8px;
+  color: #aaa;
+}
