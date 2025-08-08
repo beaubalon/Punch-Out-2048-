@@ -935,12 +935,13 @@ hr {
 .mod-credit::before {
   content: "";
   display: block;
-  width: 60%;              /* wider, but not full width */
-  max-width: 600px;        /* optional cap */
+  width: 80%;              /* nice and wide */
+  max-width: 900px;        /* keeps it from being too long on big screens */
   height: 2px;
-  background-color: #111;  /* match your border gray */
-  margin: 0 auto 10px auto;
+  background-color: #CCCCCC;  /* bright light gray */
+  margin: 0 auto 10px auto;   /* center + gap below */
 }
+
 
 
 
