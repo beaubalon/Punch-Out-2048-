@@ -883,3 +883,28 @@ hr {
   background-color: #00a3cc;  /* Slightly darker blue on hover */
 }
 
+/* Force NES font on score boxes + labels + new game button */
+.score-container,
+.best-container,
+.score-container:before,
+.best-container:before,
+.retry-button {
+  font-family: 'Press Start 2P' !important;
+}
+
+/* Optional: sizing tweaks */
+.score-container,
+.best-container { font-size: 14px; }
+.score-container:before,
+.best-container:before { font-size: 10px; }
+
+/* Make sure the button uses it and looks right */
+.retry-button {
+  font-size: 12px;
+  background-color: #00ccff;   /* your ring-mat blue */
+  color: #fff;
+  border: none;
+}
+.retry-button:hover { background-color: #00a3cc; }
+
+
