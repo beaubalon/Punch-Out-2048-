@@ -10,9 +10,10 @@ html, body {
 
 body {
   margin: 0;
-  border-left: 230px solid #2b2b2b;   /* dark gray left */
-  border-right: 230px solid #2b2b2b;  /* dark gray right */
+  border-left: 260px solid #1f1f1f;   /* slightly darker left */
+  border-right: 260px solid #1f1f1f;  /* slightly darker right */
 }
+
 
 h1, .roster, .game-message, .score-container, best-container, restart-button, .tile-inner, .game-explanation {
   font-family: 'Press Start 2P';
