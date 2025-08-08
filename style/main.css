@@ -921,5 +921,15 @@ hr {
   margin-bottom: 8px;  /* extra gap between the two lines only */
 }
 
+.mod-credit {
+  font-family: 'Press Start 2P';
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #cccccc;        /* subtle, not shouty */
+  margin: 32px 0 16px;   /* space from roster and bottom */
+  padding-top: 12px;     /* room for divider */
+  border-top: 1px solid rgba(255,255,255,0.15); /* subtle divider line */
+}
 
 
