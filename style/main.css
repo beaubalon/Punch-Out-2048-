@@ -1010,4 +1010,50 @@ hr {
 /* Make sure the NEW GAME area doesn’t disappear */
 .above-game { margin-top: 10px; text-align: right; }
 
+/* Center the whole app and keep reasonable width */
+.container {
+  max-width: 720px;       /* widen if you want */
+  margin: 40px auto;      /* centers the container */
+  padding: 0 16px;        /* a little side breathing room */
+}
+
+/* Center the board itself */
+.game-container {
+  margin: 20px auto;      /* centers the grid/tiles block */
+}
+
+/* Header: logo left, scores right, aligned nicely */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Score boxes in a row with spacing */
+.scores-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Put NEW GAME on the right, right under the header */
+.above-game {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 20px;
+}
+
+/* Make sure the roster stays centered too (belt-and-suspenders) */
+.roster { text-align: center; }
+.roster-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
 
