@@ -939,6 +939,26 @@ hr {
   font-family: 'Press Start 2P', cursive;  /* same NES font */
 }
 
+/* --- Bigger board --- */
+.tile, .grid-cell {
+  width: 140px !important;
+  height: 140px !important;
+}
+
+/* Make the 4x4 container fit the bigger tiles */
+.game-container,
+.grid-container {
+  width: calc(140px * 4 + 15px * 5) !important;  /* 4 tiles + 5 gaps */
+  height: calc(140px * 4 + 15px * 5) !important;
+}
+
+/* Ensure fighter images scale with the tile */
+.tile-inner img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
 
 
 
