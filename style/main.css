@@ -1,3 +1,4 @@
+
 @import url(fonts/clear-sans.css);
 html, body {
   margin: 0;
@@ -8,11 +9,10 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 0;
-  border-left: 240px solid #111;   /* very dark gray */
-  border-right: 240px solid #111;  /* very dark gray */
+  margin: 80px 0;
+  border-left: 40px solid #2b2b2b;   /* dark gray left */
+  border-right: 40px solid #2b2b2b;  /* dark gray right */
 }
-
 
 h1, .roster, .game-message, .score-container, best-container, restart-button, .tile-inner, .game-explanation {
   font-family: 'Press Start 2P';
@@ -871,7 +871,7 @@ hr {
 
 .game-explanation {
   font-family: 'Press Start 2P' !important;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.4;
   text-align: center;
   color: #ffcc00; /* championship gold — change to whatever you want */
@@ -926,134 +926,12 @@ hr {
 }
 
 .mod-credit {
-  text-align: center;
-  margin-top: 20px;
-  padding-top: 10px;
-  position: relative;
-}
-
-.mod-credit {
-  color: #ffcc00;
-  text-align: center;
+  font-family: 'Press Start 2P';
   font-size: 10px;
-  font-family: 'Press Start 2P', cursive;  /* same NES font */
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #cccccc;        /* subtle, not shouty */
+  margin: 32px 0 16px;   /* space from roster and bottom */
+  padding-top: 12px;     /* room for divider */
+  border-top: 1px solid rgba(255,255,255,0.15); /* subtle divider line */
 }
-
-/* --- Bigger board --- */
-.tile, .grid-cell {
-  width: 140px !important;
-  height: 140px !important;
-}
-
-/* Make the 4x4 container fit the bigger tiles */
-.game-container,
-.grid-container {
-  width: calc(140px * 4 + 15px * 5) !important;  /* 4 tiles + 5 gaps */
-  height: calc(140px * 4 + 15px * 5) !important;
-}
-
-/* Ensure fighter images scale with the tile */
-.tile-inner img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain;
-  image-rendering: pixelated;
-}
-
-.board-scale {
-  /* pick a size: 1.0 = normal, 1.2 = 20% bigger, etc. */
-  transform: scale(1.25);
-  transform-origin: top center;
-
-  /* keep layout from overlapping other stuff */
-  display: inline-block;
-}
-
-/* optional: center the scaled board */
-.board-scale { 
-  margin: 0 auto; 
-}
-
-/* Scale the whole board (safer than resizing every tile) */
-.board-scale {
-  transform: scale(1.25);        /* tweak: 1.1, 1.25, 1.4, etc. */
-  transform-origin: top center;
-  display: inline-block;         /* keeps the scaled box tight */
-}
-
-/* Center the scaled board within the page flow */
-.container {
-  text-align: center;            /* centers .board-scale */
-}
-.container .heading,
-.container .above-game,
-.container .game-explanation {
-  text-align: initial;           /* don’t center everything else */
-}
-
-/* Keep mobile sane */
-@media (max-width: 700px) {
-  .board-scale {
-    transform: scale(1.0);
-  }
-}
-
-.board-scale { transform: none !important; }
-.container { text-align: initial !important; }
-
-/* Center the whole layout again */
-.container { max-width: 640px; margin: 40px auto 0; }
-
-/* Keep the header pieces aligned while container is centered */
-.heading { display: flex; justify-content: space-between; align-items: center; }
-
-/* Make sure the NEW GAME area doesn’t disappear */
-.above-game { margin-top: 10px; text-align: right; }
-
-/* Center the whole app and keep reasonable width */
-.container {
-  max-width: 720px;       /* widen if you want */
-  margin: 40px auto;      /* centers the container */
-  padding: 0 16px;        /* a little side breathing room */
-}
-
-/* Center the board itself */
-.game-container {
-  margin: 20px auto;      /* centers the grid/tiles block */
-}
-
-/* Header: logo left, scores right, aligned nicely */
-.heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-}
-
-/* Score boxes in a row with spacing */
-.scores-container {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
-
-/* Put NEW GAME on the right, right under the header */
-.above-game {
-  display: flex;
-  justify-content: flex-end;
-  margin: 10px 0 20px;
-}
-
-/* Make sure the roster stays centered too (belt-and-suspenders) */
-.roster { text-align: center; }
-.roster-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-
-
