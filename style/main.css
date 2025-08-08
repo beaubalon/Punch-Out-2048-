@@ -872,3 +872,14 @@ hr {
   text-align: center;
   color: #ffcc00; /* championship gold — change to whatever you want */
 }
+
+.retry-button {
+  background-color: #00ccff;  /* Ring mat blue */
+  color: white;               /* Text color */
+  border: none;               /* Optional: remove default border */
+}
+
+.retry-button:hover {
+  background-color: #00a3cc;  /* Slightly darker blue on hover */
+}
+
