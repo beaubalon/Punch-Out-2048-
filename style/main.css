@@ -850,13 +850,6 @@ hr {
   color: #aaa;
 }
 
-/* Smaller NES font just for the How To Play section */
-.game-explanation {
-  font-family: 'Press Start 2P' !important;
-  font-size: 10px;
-  line-height: 1.4;
-  text-align: center; /* optional, looks nice */
-}
 .roster {
   display: flex;
   flex-wrap: wrap;         /* allows wrapping into multiple rows */
