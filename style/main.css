@@ -935,10 +935,11 @@ hr {
 .mod-credit::before {
   content: "";
   display: block;
-  width: 100px;              /* line length */
-  height: 2px;               /* line thickness */
-  background-color: #444;    /* subtle gray */
-  margin: 0 auto 10px auto;  /* center + space below */
+  width: 60%;              /* wider, but not full width */
+  max-width: 600px;        /* optional cap */
+  height: 2px;
+  background-color: #111;  /* match your border gray */
+  margin: 0 auto 10px auto;
 }
 
 
