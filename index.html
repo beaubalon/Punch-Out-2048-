@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,85 +17,70 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
-
 <body>
   <div class="container">
-    <!-- HEADER -->
     <div class="heading">
       <div class="logo-container">
-        <img src="img/PO.png" alt="Punch-Out Logo" class="logo">
-      </div>
+  <img src="img/PO.png" alt="Punch-Out Logo" class="logo">
+</div>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
       </div>
     </div>
 
-    <!-- NEW GAME -->
     <div class="above-game">
+      
       <a class="restart-button">NEW GAME</a>
     </div>
 
-    <!-- GAME BOARD -->
     <div class="game-container">
       <div class="game-message">
         <p></p>
         <div class="lower">
-          <a class="keep-playing-button">Keep going</a>
+	        <a class="keep-playing-button">Keep going</a>
           <a class="retry-button">Try again</a>
         </div>
       </div>
 
       <div class="grid-container">
         <div class="grid-row">
-          <div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
-          <div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
-          <div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
-          <div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div><div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
         </div>
       </div>
 
-      <div class="tile-container"></div>
+      <div class="tile-container">
+
+      </div>
     </div>
 
-    <!-- HOW TO PLAY -->
     <p class="game-explanation">
-      <strong class="important">How to play:</strong>
-      Use your <strong>arrow keys</strong> to dodge, weave, and throw combos.
-      Merge boxers to climb the ranks — reach Tyson to win the Dream Fight!
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to dodge, weave, and throw combos. Merge boxers to climb the ranks — reach Tyson to win the Dream Fight!
     </p>
 
-    <!-- ROSTER -->
-    <div class="roster">
-      <h2 class="roster-title">World Video Boxing Association (W.V.B.A.) Roster</h2>
-      <div class="roster-grid">
-        <div class="fighter"><img src="img/tile-2.png"><p>Glass Joe<br><span>Rank 1</span></p></div>
-        <div class="fighter"><img src="img/tile-4.png"><p>Von Kaiser<br><span>Rank 2</span></p></div>
-        <div class="fighter"><img src="img/tile-8.png"><p>Piston Honda<br><span>Rank 3</span></p></div>
-        <div class="fighter"><img src="img/tile-16.png"><p>Don Flamenco<br><span>Rank 4</span></p></div>
-        <div class="fighter"><img src="img/tile-32.png"><p>King Hippo<br><span>Rank 5</span></p></div>
-        <div class="fighter"><img src="img/tile-64.png"><p>Great Tiger<br><span>Rank 6</span></p></div>
-        <div class="fighter"><img src="img/tile-128.png"><p>Bald Bull<br><span>Rank 7</span></p></div>
-        <div class="fighter"><img src="img/tile-256.png"><p>Soda Popinski<br><span>Rank 8</span></p></div>
-        <div class="fighter"><img src="img/tile-512.png"><p>Mr. Sandman<br><span>Rank 9</span></p></div>
-        <div class="fighter"><img src="img/tile-1024.png"><p>Super Macho Man<br><span>Champion</span></p></div>
-        <div class="fighter"><img src="img/tile-2048.png"><p>Mike Tyson<br><span>Dream Fight</span></p></div>
-      </div>
-    </div>
-
-    <!-- CREDIT -->
-    <p class="mod-credit" role="contentinfo">
-      2048: Punch-Out!! Edition — Mod by Beau Balon
-    </p>
   </div>
 
-  <!-- SCRIPTS (unchanged) -->
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>
@@ -105,10 +91,29 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
-</body>
+	<div class="roster">
+  <h2 class="roster-title">
+  World Video Boxing Association (W.V.B.A.) Roster
+</h2>
+  <div class="roster-grid">
+    <div class="fighter"><img src="img/tile-2.png"><p>Glass Joe<br><span>Rank 1</span></p></div>
+    <div class="fighter"><img src="img/tile-4.png"><p>Von Kaiser<br><span>Rank 2</span></p></div>
+    <div class="fighter"><img src="img/tile-8.png"><p>Piston Honda<br><span>Rank 3</span></p></div>
+    <div class="fighter"><img src="img/tile-16.png"><p>Don Flamenco<br><span>Rank 4</span></p></div>
+    <div class="fighter"><img src="img/tile-32.png"><p>King Hippo<br><span>Rank 5</span></p></div>
+    <div class="fighter"><img src="img/tile-64.png"><p>Great Tiger<br><span>Rank 6</span></p></div>
+    <div class="fighter"><img src="img/tile-128.png"><p>Bald Bull<br><span>Rank 7</span></p></div>
+    <div class="fighter"><img src="img/tile-256.png"><p>Soda Popinski<br><span>Rank 8</span></p></div>
+    <div class="fighter"><img src="img/tile-512.png"><p>Mr. Sandman<br><span>Rank 9</span></p></div>
+    <div class="fighter"><img src="img/tile-1024.png"><p>Super Macho Man<br><span>Champion</span></p></div>
+    <div class="fighter"><img src="img/tile-2048.png"><p>Mike Tyson<br><span>Dream Fight</span></p></div>
+  </div>
+</div>
 
-
-
+<p class="mod-credit" role="contentinfo">
+  Punch-Out 2048!! Mod created by Beau Balon 2025
+</p>
 
 	
+</body>
 </html>
