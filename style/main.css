@@ -908,10 +908,17 @@ hr {
 .restart-button:hover { background-color: #0040A0; }
 
 .roster-title {
-  font-size: 12px;        /* smaller font */
-  line-height: 1.8;       /* more space between lines */
-  text-align: center;     /* keep it centered */
-  font-family: 'Press Start 2P', cursive; /* match your NES font */
+  font-size: 14px;                  /* smaller text */
+  line-height: 1.8;                  /* space between lines */
+  text-align: center;                /* center on page */
+  font-family: 'Press Start 2P', cursive; /* NES font */
+  margin-bottom: 20px;               /* gap between title and roster images */
+  color: #ffffff;                    /* white text, change if needed */
+}
+
+.roster-title br {
+  display: block;
+  margin-bottom: 8px;  /* extra gap between the two lines only */
 }
 
 
