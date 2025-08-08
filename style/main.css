@@ -932,15 +932,13 @@ hr {
   position: relative;
 }
 
-.mod-credit::before {
-  content: "";
-  display: block;
-  width: 70%;              /* nice and wide */
-  max-width: 900px;        /* keeps it from being too long on big screens */
-  height: 2px;
-  background-color: #CCCCCC;  /* bright light gray */
-  margin: 0 auto 10px auto;   /* center + gap below */
+.mod-credit {
+  color: #CCCCCC;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Press Start 2P', cursive;  /* same NES font */
 }
+
 
 
 
