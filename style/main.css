@@ -871,7 +871,7 @@ hr {
 
 .game-explanation {
   font-family: 'Press Start 2P' !important;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
   text-align: center;
   color: #ffcc00; /* championship gold — change to whatever you want */
@@ -912,7 +912,7 @@ hr {
 .restart-button:hover { background-color: #0040A0; }
 
 .roster-title {
-  font-size: 14px;                  /* smaller text */
+  font-size: 12px;                  /* smaller text */
   line-height: 1.8;                  /* space between lines */
   text-align: center;                /* center on page */
   font-family: 'Press Start 2P', cursive; /* NES font */
