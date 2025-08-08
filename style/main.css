@@ -912,7 +912,7 @@ hr {
 .restart-button:hover { background-color: #0040A0; }
 
 .roster-title {
-  font-size: 12px;                  /* smaller text */
+  font-size: 11px;                  /* smaller text */
   line-height: 1.8;                  /* space between lines */
   text-align: center;                /* center on page */
   font-family: 'Press Start 2P', cursive; /* NES font */
