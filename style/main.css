@@ -10,7 +10,7 @@ html, body {
 body {
   margin: 80px 0; }
 
-h1, .roster, .game-message, .score-container, best-container, .tile-inner, .game-explanation {
+h1, .roster, .game-message, .score-container, best-container, restart-button, .tile-inner, .game-explanation {
   font-family: 'Press Start 2P';
 }
 
