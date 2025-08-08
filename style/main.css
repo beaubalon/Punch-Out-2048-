@@ -908,7 +908,7 @@ hr {
 .restart-button:hover { background-color: #0040A0; }
 
 .roster-title {
-  font-size: 14px;        /* smaller font */
+  font-size: 12px;        /* smaller font */
   line-height: 2.5;       /* more space between lines */
   text-align: center;     /* keep it centered */
   font-family: 'Press Start 2P', cursive; /* match your NES font */
