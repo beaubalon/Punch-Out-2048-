@@ -901,7 +901,7 @@ hr {
 /* Make sure the button uses it and looks right */
 .restart-button {
   font-size: 12px;
-  background-color: #00ccff;   /* your ring-mat blue */
+  background-color: #0056C9;   /* your ring-mat blue */
   color: #fff;
   border: none;
 }
