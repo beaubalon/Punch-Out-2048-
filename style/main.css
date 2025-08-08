@@ -857,3 +857,17 @@ hr {
   line-height: 1.4;
   text-align: center; /* optional, looks nice */
 }
+.roster {
+  display: flex;
+  flex-wrap: wrap;         /* allows wrapping into multiple rows */
+  justify-content: center; /* centers the rows */
+  max-width: 800px;        /* keeps them from stretching too wide */
+  margin: 0 auto;          /* centers the whole roster block */
+}
+
+.roster .fighter {
+  flex: 0 1 calc(100% / 6 - 10px); /* aim for ~6 per row, adjusts automatically */
+  box-sizing: border-box;
+  margin: 5px;
+  text-align: center;
+}
