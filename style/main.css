@@ -960,6 +960,19 @@ hr {
   image-rendering: pixelated;
 }
 
+.board-scale {
+  /* pick a size: 1.0 = normal, 1.2 = 20% bigger, etc. */
+  transform: scale(1.25);
+  transform-origin: top center;
+
+  /* keep layout from overlapping other stuff */
+  display: inline-block;
+}
+
+/* optional: center the scaled board */
+.board-scale { 
+  margin: 0 auto; 
+}
 
 
 
