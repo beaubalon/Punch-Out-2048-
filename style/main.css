@@ -998,4 +998,7 @@ hr {
   }
 }
 
+.board-scale { transform: none !important; }
+.container { text-align: initial !important; }
+
 
