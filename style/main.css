@@ -936,3 +936,8 @@ hr {
   padding-top: 12px;     /* room for divider */
   
 }
+
+.roster-title {
+  font-size: 12px !important;
+}
+
