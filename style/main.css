@@ -867,19 +867,19 @@ hr {
 
 .game-explanation {
   font-family: 'Press Start 2P' !important;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.4;
   text-align: center;
   color: #ffcc00; /* championship gold — change to whatever you want */
 }
 
-.retry-button {
+.restart-button {
   background-color: #00ccff;  /* Ring mat blue */
   color: white;               /* Text color */
   border: none;               /* Optional: remove default border */
 }
 
-.retry-button:hover {
+.restart-button:hover {
   background-color: #00a3cc;  /* Slightly darker blue on hover */
 }
 
@@ -888,7 +888,7 @@ hr {
 .best-container,
 .score-container:before,
 .best-container:before,
-.retry-button {
+.restart-button {
   font-family: 'Press Start 2P' !important;
 }
 
@@ -899,12 +899,12 @@ hr {
 .best-container:before { font-size: 10px; }
 
 /* Make sure the button uses it and looks right */
-.retry-button {
+.restart-button {
   font-size: 12px;
   background-color: #00ccff;   /* your ring-mat blue */
   color: #fff;
   border: none;
 }
-.retry-button:hover { background-color: #00a3cc; }
+.restart-button:hover { background-color: #00a3cc; }
 
 
