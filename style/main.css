@@ -871,3 +871,11 @@ hr {
   margin: 5px;
   text-align: center;
 }
+
+.game-explanation {
+  font-family: 'Press Start 2P' !important;
+  font-size: 10px;
+  line-height: 1.4;
+  text-align: center;
+  color: #ffcc00; /* championship gold — change to whatever you want */
+}
