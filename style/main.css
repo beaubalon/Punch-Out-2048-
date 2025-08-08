@@ -909,7 +909,7 @@ hr {
 
 .roster-title {
   font-size: 14px;        /* smaller font */
-  line-height: 1.8;       /* more space between lines */
+  line-height: 2.0;       /* more space between lines */
   text-align: center;     /* keep it centered */
   font-family: 'Press Start 2P', cursive; /* match your NES font */
 }
