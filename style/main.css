@@ -935,7 +935,7 @@ hr {
 .mod-credit::before {
   content: "";
   display: block;
-  width: 80%;              /* nice and wide */
+  width: 70%;              /* nice and wide */
   max-width: 900px;        /* keeps it from being too long on big screens */
   height: 2px;
   background-color: #CCCCCC;  /* bright light gray */
