@@ -10,8 +10,8 @@ html, body {
 body {
   margin: 80px 0; }
 
-h1, .roster, .game-message, .score-container, .tile-inner {
-  font-family: 'Press Start 2P', sans-serif;
+h1, .roster, .game-message, .score-container, .tile-inner, .game-explanation {
+  font-family: 'Press Start 2P';
 }
 
 .heading:after {
