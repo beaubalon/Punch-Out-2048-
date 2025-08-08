@@ -926,14 +926,20 @@ hr {
 }
 
 .mod-credit {
-  font-family: 'Press Start 2P';
-  font-size: 10px;
-  letter-spacing: 0.5px;
   text-align: center;
-  color: #cccccc;        /* subtle, not shouty */
-  margin: 32px 0 16px;   /* space from roster and bottom */
-  padding-top: 12px;     /* room for divider */
-  border-top: none; /* subtle divider line */
+  margin-top: 20px;
+  padding-top: 10px;
+  position: relative;
 }
+
+.mod-credit::before {
+  content: "";
+  display: block;
+  width: 100px;              /* line length */
+  height: 2px;               /* line thickness */
+  background-color: #444;    /* subtle gray */
+  margin: 0 auto 10px auto;  /* center + space below */
+}
+
 
 
