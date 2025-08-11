@@ -789,6 +789,8 @@ hr {
 .logo {
   width: 800px;  /* Change this to make it bigger or smaller */
   image-rendering: pixelated;
+   display: block;
+  margin: 0 auto;
 }
 
 .scores-container {
