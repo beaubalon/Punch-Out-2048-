@@ -781,18 +781,16 @@ hr {
 }
 
 .logo-container {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 5px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
-  width: 800px;  /* Change this to make it bigger or smaller */
+  width: 800px; /* adjust as needed */
   image-rendering: pixelated;
-   display: block;
-  margin: 0 auto;
 }
+
 
 .scores-container {
   display: flex;
