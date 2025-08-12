@@ -942,3 +942,13 @@ hr {
 .roster-title {
   font-size: 12px !important;
 }
+
+/* Make TKO! text and buttons fully solid on Game Over */
+.game-message p {
+  opacity: 1 !important;   /* remove fade from text */
+  color: #fff !important;  /* ensure bright white */
+}
+
+.game-message .lower a {
+  opacity: 1 !important;   /* remove fade from buttons */
+}
