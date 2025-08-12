@@ -969,3 +969,35 @@ hr {
   margin-bottom: 12px; /* space above Rematch? */
 }
 
+/* Make the overlay a flex box centered over the grid */
+.game-container { position: relative !important; }
+.game-message {
+  position: absolute !important;
+  inset: 0 !important;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+.game-message.game-over,
+.game-message.game-won { display: flex !important; }
+
+/* Make the <p> act as a centering box */
+.game-message p {
+  margin: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Size/spacing for the image */
+.mario-tko {
+  display: block !important;
+  width: 220px !important;   /* tweak size here */
+  height: auto !important;
+  image-rendering: pixelated !important;
+  margin-bottom: 16px !important; /* keeps off “Rematch?” */
+}
+
