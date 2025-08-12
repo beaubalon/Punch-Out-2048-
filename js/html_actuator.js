@@ -1,3 +1,4 @@
+
 function HTMLActuator() {
   this.tileContainer    = document.querySelector(".tile-container");
   this.scoreContainer   = document.querySelector(".score-container");
@@ -131,19 +132,12 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var type = won ? "game-won" : "game-over";
-  var message;
-
-  if (won) {
-    message = "You win!";
-  } else {
-    message = '<img src="img/MARIOTKO.png" class="mario-tko" alt="TKO">';
-  }
+  var type    = won ? "game-won" : "game-over";
+  var message = won ? "You win!" : "Game over!";
 
   this.messageContainer.classList.add(type);
-  this.messageContainer.getElementsByTagName("p")[0].innerHTML = message;
+  this.messageContainer.getElementsByTagName("p")[0].textContent = message;
 };
-
 
 HTMLActuator.prototype.clearMessage = function () {
   // IE only takes one value to remove at a time.
