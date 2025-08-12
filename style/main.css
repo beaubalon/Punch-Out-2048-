@@ -961,3 +961,11 @@ hr {
   height: auto;         /* keep proportions */
   image-rendering: pixelated; /* keep retro sharpness */
 }
+.mario-tko {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;  /* adjust size */
+  image-rendering: pixelated;  /* keeps NES crispness */
+  margin-bottom: 12px; /* space above Rematch? */
+}
+
