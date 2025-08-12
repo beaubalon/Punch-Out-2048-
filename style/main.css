@@ -952,3 +952,14 @@ hr {
 .game-message .lower a {
   opacity: 1 !important;   /* remove fade from buttons */
 }
+/* Force TKO! and buttons to be solid on Game Over */
+.game-message.game-over p,
+.game-message.game-won p {
+  opacity: 1 !important;
+  color: #fff !important;
+}
+
+.game-message.game-over .lower a,
+.game-message.game-won .lower a {
+  opacity: 1 !important;
+}
