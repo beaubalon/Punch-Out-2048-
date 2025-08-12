@@ -952,3 +952,12 @@ hr {
   image-rendering: pixelated; /* keep retro sharpness */
 }
 
+/* Center and resize Mario Game Over image */
+.game-message p img {
+  display: block;
+  margin: 0 auto;       /* centers horizontally */
+  max-width: 80%;       /* keep it from overflowing the grid */
+  width: 350px;         /* set desired size in pixels */
+  height: auto;         /* keep proportions */
+  image-rendering: pixelated; /* keep retro sharpness */
+}
