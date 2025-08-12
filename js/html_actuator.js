@@ -137,12 +137,13 @@ HTMLActuator.prototype.message = function (won) {
   if (won) {
     message = "You win!";
   } else {
-    message = '<img src="img/MARIOTKO.png" alt="TKO" style="max-width: 100%; height: auto;">';
+    message = '<img src="img/MARIOTKO.png" class="mario-tko" alt="TKO">';
   }
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].innerHTML = message;
 };
+
 
 HTMLActuator.prototype.clearMessage = function () {
   // IE only takes one value to remove at a time.
